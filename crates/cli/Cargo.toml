@@ -1,0 +1,15 @@
+[package]
+name = "hangar-cli"
+description = "Hangar 命令行：与桌面端共用同一数据库"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "hangar"
+path = "src/main.rs"
+
+[dependencies]
+hangar-core = { path = "../core" }
+clap = { version = "4", features = ["derive"] }
+serde_json.workspace = true

@@ -1,0 +1,29 @@
+# Node / frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# Rust
+target/
+**/*.rs.bk
+
+# Tauri
+src-tauri/gen/schemas/
+
+# Local databases / debug artifacts
+*.db
+*.db-wal
+*.db-shm
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+release/

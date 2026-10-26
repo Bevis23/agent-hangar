@@ -1,0 +1,18 @@
+[package]
+name = "hangar-core"
+description = "Hangar 的核心库：工作空间数据模型、SQLite 存储与查询（无 UI 依赖，GUI 与 CLI 共用）"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+rusqlite = { version = "0.32", features = ["bundled"] }
+serde.workspace = true
+serde_json.workspace = true
+thiserror = "1"
+uuid = { version = "1", features = ["v7"] }
+dirs = "5"
+git2 = "0.19"
+walkdir = "2"
+zip = { version = "2", default-features = false, features = ["deflate"] }
+tiny_http = "0.12"

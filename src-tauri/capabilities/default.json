@@ -1,0 +1,6 @@
+{
+  "identifier": "default",
+  "description": "主窗口默认权限：核心 + 文件夹选择对话框",
+  "windows": ["main"],
+  "permissions": ["core:default", "dialog:default"]
+}

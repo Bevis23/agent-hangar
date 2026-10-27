@@ -1,6 +1,6 @@
 <div align="center">
 
-<video src="docs/media/show.mp4" autoplay loop muted playsinline width="860"></video>
+<img src="docs/media/show.gif" alt="Hangar demo" width="860" />
 
 # Hangar
 

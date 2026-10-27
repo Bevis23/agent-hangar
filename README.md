@@ -16,15 +16,17 @@ GUI + CLI + MCP + REST, one local database. No account, no network, no telemetry
 
 ## The problem
 
-AI coding agents create folders. Claude Code, Codex, and the rest each make their own, and over a few weeks your disk fills with `demo`, `test2`, `新建文件夹(3)`. Which ones have uncommitted changes? Which did an agent touch last week? Which are already abandoned?
+Coding with AI, folders get out of hand. Claude Code, Codex, and the rest each make their own directory for every task, and after a few weeks your disk fills with `demo`, `test2`, `新建文件夹(3)`. Which ones have uncommitted changes? Which did an agent touch last week? Which are already abandoned?
 
-Hangar collects these folders into a single searchable wall of cards. Each card tells you which agent owns it, what git branch it is on, how many files are uncommitted, and when it was last opened. From the card you can open the folder, or launch an agent directly inside it. Before every launch Hangar takes an automatic snapshot, so a bad edit is one click away from being undone.
+And it is not just the agents. The projects you started yourself — a tool, a script repo, a folder labeled "to sort" — pile up too, until you no longer remember where they live, which ones are still active, or which can be deleted.
+
+Hangar collects these folders into a single searchable wall of cards, whether an agent made them or you did. Each card tells you where it is, what it is for, which git branch it is on, how many files are uncommitted, and when it was last opened. From the card you can open the folder, or launch an agent directly inside it. Before every launch Hangar takes an automatic snapshot, so a bad edit is one click away from being undone.
 
 ## Features
 
 **Collect and organize**
 
-- Import a directory and register every project folder in it, or drag folders in. Folders stay where they are; Hangar only records them.
+- Import a directory and register every project folder in it, or drag folders in. Agent-made and self-made alike. Folders stay where they are; Hangar only records them.
 - Group, tag, favorite, search, and filter by agent or git state.
 - Every card shows the current git branch and uncommitted count, refreshed every 30 seconds.
 

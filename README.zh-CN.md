@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/media/screenshot.png" alt="Hangar" width="860" />
+<video src="docs/media/show.mp4" autoplay loop muted playsinline width="860"></video>
 
 # Hangar（机库）
 

@@ -27,3 +27,6 @@ desktop.ini
 .vscode/
 *.swp
 release/
+
+# 原始录屏素材（体积大，不入库；README 用压缩后的 mp4）
+docs/media/*.gif
